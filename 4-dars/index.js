@@ -49,16 +49,25 @@
 //     else console.log(`toq son ${i}`);
 // }
 
-function showPrimes(n){
-    for(let i = 2; i < n; i++){
-        if(!isPrime(i)) continue;
-        console.log(i);
-    }
-}
-function isPrime(n){
-    for(let i = 2; i < n; i++){
-        if(n % i == 0) return false;
-    }
-    return true;
-}
-showPrimes(30);
+// function showPrimes(n){
+//     for(let i = 2; i < n; i++){
+//         if(!isPrime(i)) continue;
+//         console.log(i);
+//     }
+// }
+// function isPrime(n){
+//     for(let i = 2; i < n; i++){
+//         if(n % i == 0) return false;
+//     }
+//     return true;
+// }
+// showPrimes(30);
+
+// let age = prompt('Возраст?', 18);
+
+// let message = (age < 3) ? 'Здравствуй, малыш!' :
+//   (age < 18) ? 'Привет!' :
+//   (age < 100) ? 'Здравствуйте!' :
+//   'Какой необычный возраст!';
+
+// alert( message );

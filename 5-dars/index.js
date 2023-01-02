@@ -98,34 +98,34 @@
 //   }
 // }
 
-function sum(x, y){
+// function sum(x, y){
  
-  if(y === undefined) y = 5;
-  if(x === undefined) x = 8;
-  const z = x + y;
-  console.log(z);
-}
-sum();          // 13
-sum(6);         // 11
-sum(6, 4)       // 10
+//   if(y === undefined) y = 5;
+//   if(x === undefined) x = 8;
+//   const z = x + y;
+//   console.log(z);
+// }
+// sum();          // 13
+// sum(6);         // 11
+// sum(6, 4)       // 10
 
-let calculator = (function(){
-  let data = { number: 0};
+// let calculator = (function(){
+//   let data = { number: 0};
    
-  return {
-      sum: function(n){
-          data.number += n;
-      },
-      subtract: function(n){
-          data.number -= n;
-      },
-      display: function(){
-          console.log("Result: ", data.number);
-      }
-  }
-})();
-calculator.sum(10);
-calculator.sum(3);
-calculator.display();   // Result: 13
-calculator.subtract(4);
-calculator.display();   // Result: 9
+//   return {
+//       sum: function(n){
+//           data.number += n;
+//       },
+//       subtract: function(n){
+//           data.number -= n;
+//       },
+//       display: function(){
+//           console.log("Result: ", data.number);
+//       }
+//   }
+// })();
+// calculator.sum(10);
+// calculator.sum(3);
+// calculator.display();   // Result: 13
+// calculator.subtract(4);
+// calculator.display();   // Result: 9
