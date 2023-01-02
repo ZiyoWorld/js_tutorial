@@ -128,4 +128,4 @@
 // calculator.sum(3);
 // calculator.display();   // Result: 13
 // calculator.subtract(4);
-// calculator.display();   // Result: 9
+// calculator.display();   // Result: 9;
