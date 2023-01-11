@@ -10,7 +10,7 @@
 // console.log(a + b);
 // console.log(str1 + str2);
 // console.log(isNaN(+a));
-// console.log(b + +a);
+// console.log(b + +a);  
 
 // ================
 
@@ -129,13 +129,66 @@
 // console.log((1 !== "0" && true && "Hey"));
 
 
+// questions
+// —  Type convirsions
+// —  Operators + - * / % () = ++ -- **
+// —  Comparision == === 
+// —  Logical Operations || && !
+// +? string 
+// Number();
+// parseInt();
+// parseFloat(); 
+//  0 and 1 == true and false  ;
+// Comparision =  == === 
+// "use strict";
+// +true
+// +""
+// let apples = "2";
+//let oranges = "3";
 
- 
+//console.log( apples + oranges );
+//unary plus
+// Increment/decrement
+// Bitwise operators
+// let a = 1, b = 1;
 
+// let c = ++a; // ?
+// let d = b++; // ?
+//"" + 1 + 0
+//"" - 1 + 0
+// true + false
+// 6 / "3"
+// "2" * "3"
+// 4 + 5 + "px"
+// "$" + 4 + 5
+// "4" - 2
+// "4px" - 2
+// "  -9  " + 5
+// "  -9  " - 5
+// null + 1
+// undefined + 1
+// " \t \n" - 2
+// let x = ""  + 1 + 0;
+// console.log();
 
+// 5 > 4
+// "apple" > "pineapple"
+// "2" > "12"
+// undefined == null
+// undefined === null
+// null == "\n0\n"
+// null === +"\n0\n"
 
+// let age = prompt('How old are you?', 100);
+// document.write(age);
+// alert(`You are ${age} years old!`); // You are 100 years old!
 
+// let isBoss = confirm("Are you the boss?");
 
+// alert( isBoss ); // true if OK is pressed
+
+// let name = prompt("What is your name?");
+// alert(`Salom ${name}`);
 
 
 
