@@ -128,7 +128,6 @@
 
 // console.log((1 !== "0" && true && "Hey"));
 
-
 // questions
 // —  Type convirsions
 // —  Operators + - * / % () = ++ -- **
@@ -138,9 +137,9 @@
 // Number();
 // parseInt();
 // parseFloat(); 
-//  0 and 1 == true and false  ;
+//  0 and 1 == true and false;
 // Comparision =  == === 
-// "use strict";
+// "use strict"; 
 // +true
 // +""
 // let apples = "2";
@@ -190,6 +189,7 @@
 // let name = prompt("What is your name?");
 // alert(`Salom ${name}`);
 
+console.log(true + 1);
 
 
 
