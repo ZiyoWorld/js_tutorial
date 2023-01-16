@@ -1,13 +1,20 @@
-// i = 3;
-// while (i) {
+// let i = 3;
+// while (i < 10) {
 //   console.log(`hey`);
-//   i--;
+//   i++;
 // }
 
+//! while do while
+
+// let i = 0;
 // do {
 //   console.log(i);
 //   i--;
-// } while (i == 0);
+// } while (i == 1);
+
+// method
+// alert(), prompt(), confirm();
+
 
 // getAvr();
 // let id = 1;
@@ -68,9 +75,10 @@
 
 // const getNum = (a) => {
 //   let total = 193;
-//   console.log((a * 100) / total);
+//    console.log((a * 100) / total);
 //   return (a * 100) / total;
 // };
+// getNum(150);
 
 // console.log(parseInt(getNum(159)));
 
@@ -130,4 +138,29 @@
 // calculator.subtract(4);
 // calculator.display();   // Result: 9;
 
+
+
+// review
+// — while!
+// — do while
+// — Function decloration
+// — Function Expression
+// — Arrow Function
+// — Shadowed variable
+// — Default parameter
+// — Functions with return
+// - Hoisting!
+
+
+// const lavel = () => {
+//     let name = "Discussinon";
+//     console.log(name);
+// }
+// lavel();
+// console.log(name);
+
+// const func1 = (name, surname) => {
+//     console.log(`${name} === ${surname} === ${age}`)
+// }
+// func1("Mirziyod", "Sunatillayev");
 

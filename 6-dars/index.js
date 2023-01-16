@@ -25,15 +25,16 @@
 // console.log(account[name]);
 // console.log(account['name']);
 
-// const account = {
-//     name: "Webbrain Academy ",
-//     major: "Frontend",
-//     name: "Webbrain IT Academy", /// yuqoridagilar hammasini update qiladi.
-// };
+const account = {
+    name: "Webbrain Academy ",
+    major: "Frontend",
+    name: "Webbrain IT Academy", /// yuqoridagilar hammasini update qiladi.
+};
 
 // account = 'sacsacsdcs';
 // account.founded = 2022;
 // Object.freeze(account); /// objectni muzlatib quyadi.
+//Object.seal(account)
 // delete account.major;
 // console.log(account);
 
@@ -63,14 +64,15 @@
 // let name = "Webbrain Academy ";
 // let major ="Frontend";
 
-// const act2 = {
-//     name: "Webbrain Academy ", 
-//     major: "Frontend",
-//     founded: 2020,
-//     students: 1000,
-//     mentors:2
+const act2 = {
+    name: "Webbrain Academy ",
+    major: "Frontend",
+    founded: 2020,
+    students: 1000,
+    mentors:2
 
-// }
+}
+// console.log(act2);
 
 // for (let i in act2){
 //     console.log(act2[i]);
@@ -78,11 +80,47 @@
 
 // console.log('name' in act2);
 
-// const act1 = {};
+const act1 = {};
 
-// Object.assign(act1, act2);
+Object.assign(act1, act2);
 
-// console.log(act1);
+console.log(act1);
+
+
+
+// review
+// —  Savol Javob!
+// —  Tushuntirib berish boshqa level!
+// —  Logica nega kerak?
+// —  Objects [""]? Object[]?;
+// -  Object.freeze(account);
+// -- Delete Object 
+// —  Dynamic access to keys // tashqi keylar
+// —  Copying vs Referencing
+// —  Object assign
+// --- in // true yoki false
+// —  structeredClone();
+// - Object.assign(act1, act2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /// homeworks 
 // #    /////////////////object/////////////////

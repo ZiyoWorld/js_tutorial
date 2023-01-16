@@ -189,7 +189,7 @@
 // let name = prompt("What is your name?");
 // alert(`Salom ${name}`);
 
-console.log(true + 1);
+// console.log(true + 1);
 
 
 
