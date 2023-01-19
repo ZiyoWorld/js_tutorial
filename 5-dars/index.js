@@ -164,3 +164,52 @@
 // }
 // func1("Mirziyod", "Sunatillayev");
 
+
+// let name = "Mirziyod";
+// const func1 = function () {
+//     let name = "Sunatillayev";
+//     console.log(name);
+// };
+// func1(); // shadow variable//
+// console.log(name);
+
+// return and unreturn;
+// const gpa = (a, b, c, d) => {
+//     let res = (a + b + c + d) / 4;
+//     console.log(res);
+//     return "okay?";
+// }
+// console.log(gpa(8, 6, 4, 5));
+
+// question
+// if function is not define, what will it return?
+
+// const getNum = (a) => {
+//     let total = 193;
+//     console.log(a * 100 / total);
+       // return (a * 100 ) / total;
+// }
+// console.log(parseInt(getNum(159)));
+
+// const getNum = (a) => {
+//     let total = 193;
+//     console.log(a * 100 / total);
+//     return (a * 100 ) / total;
+// }
+// console.log(parseInt(getNum(159)));
+
+// agar funksiya return qaytarsa uning qiymati bor;
+// agar qaytarsamasa u qiymati yuq uni boshqa maqsadlarda foydalanaolmaymiz.
+// shunchaki berilgan vazifani bajaradi bo'ldi.
+// return bilan u qiymat oladi va yana funksiyamizni boshqa maqsadlarda ishlatalamiz.
+
+
+//! Default parameters
+const telegram = (name, surname) => {
+    if (surname) console.log(name, surname); // agar familiyasi bo'lsa chiqarsin bo'lmasa yuq
+    else console.log(name);
+}
+telegram("Mirziyod");
+
+
+

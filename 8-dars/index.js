@@ -58,15 +58,15 @@
 
 // console.log(Math.sqrt(27));
 
-// console.log(Math.sign(-0));
-// console.log(Math.sign(0));
-// console.log(Math.sign(12445));
-// console.log(Math.sign(-1));
+console.log(Math.sign(-0));
+console.log(Math.sign(0));
+console.log(Math.sign(12445));
+console.log(Math.sign(-1));
 
-let i = 0;
-function myNumber (param) {
-    let num = Number(param.toString(2));
-    console.log(num);
+// let i = 0;
+// function myNumber (param) {
+//     let num = Number(param.toString(2));
+//     console.log(num);
     
     // while(num){
     //     i += num.toString().includes("0");
@@ -75,5 +75,39 @@ function myNumber (param) {
     // } 
     
 
-}
+// }
 // myNumber(50);
+
+// —  Savol Javob!
+// — Number representation
+// — Decimal, Binary va Hex
+// — Math - abs, floor, ceil, round, 
+// — trunc, random, min, max, pow, sign, 
+// — sqrt, cbrt
+// — Methods, toString, toFixed, parseInt,
+// — parseFloat, isNaN, Object.is, toPrecision, 
+// — Strang JS
+// —  Optional Chaining
+// — Homework
+
+// keys
+// 100_000_000 underscore
+// e - milliondagi 1e-6 kasr ko'rinishiga o'tadi.
+//  console.log(1e500);
+// easy math operations + - * / %;
+// toFixed - number, kasrdagi qolgan raqamni chiqaradi.
+// parseInt. raqam oladi
+// eval(stringdagi ham arefmitikani tushunadi.)
+// toString(2 binary qilib beradi.) // binary jadvalida qaraymiz
+// parseInt("101",2) === 5;
+// isNan(+"1_000");
+// Object.is("15cs", "15s");
+// toPrecision(0 ni ignore qiladi);
+// console.log(Math.PI);
+   //Math.abs(-10)); // sonning moduli
+//  Math.round(10.6); // yaxlitlash
+//  Math.floor(-10.999)); // pastga qarab yaxslitlaydi.
+//  Math.ceil(10.001); // tepaga qarab yaxlitlaydi.
+//  Math.trunc(-10.999); // . udan bu yog'ini o'chirib tashlaydi.
+// math.sigh
+// nested .? bor yoki yuq

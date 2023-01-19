@@ -25,11 +25,11 @@
 // console.log(account[name]);
 // console.log(account['name']);
 
-const account = {
-    name: "Webbrain Academy ",
-    major: "Frontend",
-    name: "Webbrain IT Academy", /// yuqoridagilar hammasini update qiladi.
-};
+// const account = {
+//     name: "Webbrain Academy ",
+//     major: "Frontend",
+//     name: "Webbrain IT Academy", /// yuqoridagilar hammasini update qiladi.
+// };
 
 // account = 'sacsacsdcs';
 // account.founded = 2022;
@@ -64,14 +64,14 @@ const account = {
 // let name = "Webbrain Academy ";
 // let major ="Frontend";
 
-const act2 = {
-    name: "Webbrain Academy ",
-    major: "Frontend",
-    founded: 2020,
-    students: 1000,
-    mentors:2
+// const act2 = {
+//     name: "Webbrain Academy ",
+//     major: "Frontend",
+//     founded: 2020,
+//     students: 1000,
+//     mentors:2
 
-}
+// }
 // console.log(act2);
 
 // for (let i in act2){
@@ -80,12 +80,15 @@ const act2 = {
 
 // console.log('name' in act2);
 
-const act1 = {};
+// const act1 = {};
 
-Object.assign(act1, act2);
+// Object.assign(act1, act2);
 
-console.log(act1);
+// console.log(act1);
 
+// primitive data typelar value qaytaradi
+// non-primitive esa manzilini qaytaradi.
+// object consist of keys and values;
 
 
 // review
@@ -94,13 +97,29 @@ console.log(act1);
 // —  Logica nega kerak?
 // —  Objects [""]? Object[]?;
 // -  Object.freeze(account);
-// -- Delete Object 
+// -- Delete Object
 // —  Dynamic access to keys // tashqi keylar
 // —  Copying vs Referencing
 // —  Object assign
 // --- in // true yoki false
 // —  structeredClone();
 // - Object.assign(act1, act2);
+
+
+// create objects
+// let objs = {};
+// let objs1 = new Object();
+// . bilan kiris
+// object([""] and [value chiqaradi]);
+// object([0 - with number => ["0"], [0]]);
+// 2 ta bir xil objectda oxirgisini o'qiydi.
+// const bilan ochilsachi?
+// Object.freeze(ac1); // muzlatadi.
+// structeredClone(ikk objectni bir biriga biriktiradi);
+// ikkita key bir xil bo'lsa qanday yozamiz.
+// Object.assign(ac2, obj1, valuelarni bir xilda teglaydi);
+// for loopda ma'lumotlatni chiqarish
+// vazifalarni qilaman.
 
 
 

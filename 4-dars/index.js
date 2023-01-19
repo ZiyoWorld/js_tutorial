@@ -144,6 +144,66 @@
 
 //}
 
-for (let i = 0; i < 15; i++){
-     console.log(i);
+// for (let i = 0; i < 15; i++){
+//      console.log(i);
+// }
+
+
+
+function fizzBuzz(input) {
+     if (input % 15 === 0) return "FizzBuzz";
+     else if (input % 5 === 0) return "Buzz";
+     else if (input % 3 === 0) return "Fizz";
+     else return "Number is not define";
 }
+const output = fizzBuzz(43);
+console.log(output);
+
+// -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+// Shart:
+//  - son 3 ga bo'linadigan bo'lsa -> Fizz
+//  - son 5 ga bo'linadigan bo'lsa -> Buzz
+//  - son 3 va 5 ga bo'linadigan bo'lsa -> FizzBuzz
+//  - son 3 va 5 ga bo'linmaydigan bo'lsa -> sonni o'zini chiqarsin!
+
+
+// karra jadvali;
+
+// for (let i = 1; i < 10; i++){
+//      for (let j = 1; j < 10; j++){
+       //document.write(`${i} * ${j} = ${i * j}`)
+//           console.log(`${i} * ${j} = ${i * j}`);
+//      }
+// }
+
+//task 1. sonlardan iborat arrayning ham 7 ga,
+// ham 19 ga bo'linadigan elementlari yig'indisi
+
+// const arr = [7, 19, 133, 266, 399];
+// let sum = 0;
+// for (let i of arr) {
+//      if (i % 7 === 0 && i % 19 === 0) {
+//           sum += i;
+//           console.log(sum);
+//      }
+// }
+
+//task 2. sonlardan iborat arrayning juft elementlari
+// yig'indisidan, toq elementlari yig'indisini ayirish kerak;
+
+// const arr2 = [5, 8, 12, 16, 19, 23, 28];
+// let sum1 = 0;
+// let sum2 = 0; 
+// for (let i of arr2) {
+//      if (i % 2 === 0) {
+//           sum1 = sum1 + i;
+//      } else if (i % 2 === 1) {
+//           sum2 = sum2 + i;
+//      } else {
+//           console.log("array yuq");
+//      }
+//      console.log(`${sum1} - ${sum2} = ${sum1 - sum2}`);
+// }
+
+//task 3. Sonning tub yoki tub emasligini aniqlash
