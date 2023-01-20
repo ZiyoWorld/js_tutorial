@@ -91,14 +91,14 @@
 // console.log(str.replace(/Web/ig, "WEB"));
 // console.log(str.replace(/Web/ig, "WEB"));
 
-let str = "web brain acad web emy";
+// let str = "web brain acad web emy";
 
 // console.log(str.split(" ", 3));
 
 // for (char of str) {
 //   console.log(char);
 // }
-console.log(str.replaceAll(/Web/gi, "WEB"));
+// console.log(str.replaceAll(/Web/gi, "WEB"));
 
 
 
