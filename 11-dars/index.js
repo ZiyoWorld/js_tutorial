@@ -3,10 +3,6 @@
 //task 1. sonlardan iborat arrayning ham 7 ga,
 // ham 19 ga bo'linadigan elementlari yig'indisi
 
-
-
-
-
     // const arr = [7, 19, 14, 18, 38, 133, 266];
     // let sum = 0;
     // for (let i of arr){

@@ -4,30 +4,30 @@
 
 // console.log(obj2);
 
-let obj = {
-  name: "webbrain",
-  age: 23,
-  child: {
-    name: "eshmat",
-    age: 11,
-    child: {
-      name: "toshmat",
-      age: 33,
-    },
-  },
-};
+// let obj = {
+//   name: "webbrain",
+//   age: 23,
+//   child: {
+//     name: "eshmat",
+//     age: 11,
+//     child: {
+//       name: "toshmat",
+//       age: 33,
+//     },
+//   },
+// };
 
-let sum = 0;
+// let sum = 0;
 
-while (obj) {
-  if (obj) {
-    console.log(obj.age);
+// while (obj) {
+//   if (obj) {
+//     console.log(obj.age);
     //sum += obj.age;
-  } else {
-    break;
-  }
-  obj = obj.child;
-}
+//   } else {
+//     break;
+//   }
+//   obj = obj.child;
+// }
 
 //console.log(sum);
 
@@ -38,7 +38,7 @@ while (obj) {
 
 // let user = {
 //     name: "webbrain",
-//     // name,
+// name,
 //     satHI(){
 //         console.log(`I said hey ${this.name}`);
 //         console.log(`I said hey ${user.name}`);

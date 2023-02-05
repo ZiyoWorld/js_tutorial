@@ -34,7 +34,7 @@
 // console.log(ar1 == 0);
 // console.log(ar1 == "0");
 
-let user = ["Abdulloh", "Muhammad", "Sardorbek","Mirziyod", "Shoxrux"];
+// let user = ["Abdulloh", "Muhammad", "Sardorbek","Mirziyod", "Shoxrux"];
 
 // for (let i = 1; i < user.length; i += 2){
 //     console.log(user[i], i);
@@ -93,7 +93,8 @@ let user = ["Abdulloh", "Muhammad", "Sardorbek","Mirziyod", "Shoxrux"];
 //     unshift, splice, slice, concat, indexOf,
 //     lastIndexOf va boshqalar...
 
-let ar2 = ["webbrain", "academy"];
+// let ar2 = ["webbrain", "academy"];
+
 
 
 

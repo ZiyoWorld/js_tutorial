@@ -58,10 +58,10 @@
 
 // console.log(Math.sqrt(27));
 
-console.log(Math.sign(-0));
-console.log(Math.sign(0));
-console.log(Math.sign(12445));
-console.log(Math.sign(-1));
+// console.log(Math.sign(-0));
+// console.log(Math.sign(0));
+// console.log(Math.sign(12445));
+// console.log(Math.sign(-1));
 
 // let i = 0;
 // function myNumber (param) {
@@ -110,4 +110,37 @@ console.log(Math.sign(-1));
 //  Math.ceil(10.001); // tepaga qarab yaxlitlaydi.
 //  Math.trunc(-10.999); // . udan bu yog'ini o'chirib tashlaydi.
 // math.sigh
-// nested .? bor yoki yuq
+// nested .? bor yoki yuq;
+
+// function showPrimes(n){
+//    for(let i = 2; i < n; i++){
+//        if(!isPrime(i)) continue;
+//        console.log(i);
+//    }
+// }
+// function isPrime(n){
+//    for(let i = 2; i < n; i++){
+//        if(n % i == 0) return false;
+//    }
+//    return true;
+// }
+// showPrimes(30); 
+
+// function showPrimes(n) {
+//    for (let i = 2; i < n; i++){
+//       if (!isPrime(i)) continue;
+//       console.log(i);
+//    }
+// }
+// function isPrime(n) {
+//    for (let i = 2; i < n; i++){
+//       if (n % i === 0) return false;
+//    }
+//    return true;
+// }
+
+// showPrimes(45)
+//  console.log(isPrime(15));
+
+
+
