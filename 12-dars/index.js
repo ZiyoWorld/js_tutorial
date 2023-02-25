@@ -9,6 +9,9 @@ let students = [
   { id: 8, year: 1995, name: "Olimjon Arslanov" },
 ];
 
+
+
+
 // CRUD
 
 const sortByYear = () => {
