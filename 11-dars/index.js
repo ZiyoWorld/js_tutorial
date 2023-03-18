@@ -220,6 +220,12 @@ console.log(Array.from("mirziyod", (v) => v.toUpperCase()));
 // }, 0);
 // console.log(res);
 
+let arr = [1, 2, 3, 4, 5];
+
+let result = arr.reduce((sum, current) => sum + current, 0);
+
+alert(result); // 15
+
 //? a.copyWithin
 
 // console.log(n.fill("mir", 2));

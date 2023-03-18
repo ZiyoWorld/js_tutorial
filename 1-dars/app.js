@@ -1,6 +1,6 @@
- // let, var and const
+// let, var and const
 
- //let text = 1;
+//let text = 1;
 // const text  = 1;
 // console.log(text);
 
@@ -22,10 +22,7 @@
 // let func = ()=>{};
 // function test(){};
 
-
-
-
-/// questions 
+/// questions
 // —  JS nima?
 // —  JS qanday ishlaydi
 // —  Single Thread?
@@ -39,18 +36,11 @@
 // const, let, var
 // \ "" , '', ``,
 
-
 // console.log(null == undefined);
 // console.log(null === undefined);
-// isNaN(null + 1); 
+// isNaN(null + 1);
 // NaN
-
 
 // const a = 12;
 // a = 13;
 // console.log(a);
-
-
-
-
-
